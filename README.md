@@ -14,6 +14,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * ```az.compare()``` を使いたい場合 ```nutpie``` サンプラーは使えない
 1. [Hierarchical Linear Regression (Pigs dataset)](https://bambinos.github.io/bambi/notebooks/multi-level_regression.html)
     * 階層ベイズモデルを用いた回帰モデル
+1. [Hierarchical Linear Regression (Sleepstudy example)](https://bambinos.github.io/bambi/notebooks/sleepstudy.html)
+    * 階層ベイズのフォーミュラの参考になる
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
