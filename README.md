@@ -10,7 +10,10 @@ URL: https://bambinos.github.io/bambi/notebooks/
 1. [Multiple linear regression](https://bambinos.github.io/bambi/notebooks/ESCS_multiple_regression.html)
     : 多項式回帰
 1. [Regression splines (Cherry blossom example)](https://bambinos.github.io/bambi/notebooks/splines_cherry_blossoms.html)
+    * スプライン曲線回帰
     * ```az.compare()``` を使いたい場合 ```nutpie``` サンプラーは使えない
+1. [Hierarchical Linear Regression (Pigs dataset)](https://bambinos.github.io/bambi/notebooks/multi-level_regression.html)
+    * 階層ベイズモデルを用いた回帰モデル
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
