@@ -16,6 +16,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 階層ベイズモデルを用いた回帰モデル
 1. [Hierarchical Linear Regression (Sleepstudy example)](https://bambinos.github.io/bambi/notebooks/sleepstudy.html)
     * 階層ベイズのフォーミュラの参考になる
+1. [Hierarchical Linear Regression (Radon Contamination dataset)](https://bambinos.github.io/bambi/notebooks/radon_example.html)
+    * 実用的な階層ベイズ回帰の例
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
