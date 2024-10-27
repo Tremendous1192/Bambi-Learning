@@ -23,7 +23,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
 1. [Logistic Regression and Model Comparison with Bambi and ArviZ](https://bambinos.github.io/bambi/notebooks/model_comparison.html)
     * リンク関数の多項式の次数と予測精度を比較した。
-    * model 3 の計算には**316分**かかった
+    * ```model 3``` の計算には**316分**かかった
 1. [Hierarchical Logistic regression with Binomial family](https://bambinos.github.io/bambi/notebooks/hierarchical_binomial_bambi.html)
     * 階層ベイズを用いた二項分布の回帰分析
 1. [Regression for Binary responses: Alternative link functions](https://bambinos.github.io/bambi/notebooks/alternative_links_binary.html)
@@ -44,7 +44,10 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 周期性のあるデータの分析に使用できる
 1. [Quantile Regression](https://bambinos.github.io/bambi/notebooks/quantile_regression.html)
     * 分位点回帰(誤差を含めた予測値を計算する)
-
+1. [Multilevel Regression and Post-stratification](https://bambinos.github.io/bambi/notebooks/mister_p.html)
+    * マルチレベルモデル
+    * ```base_model``` の計算には**43分**かかった
+    * ```model_hierarchical``` の計算には**164分**かかった
 
 
 # 実験
