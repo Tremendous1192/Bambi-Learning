@@ -42,6 +42,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
 1. [Circular Regression](https://bambinos.github.io/bambi/notebooks/circular_regression.html)
     * Circular Regression
     * 周期性のあるデータの分析に使用できる
+1. [Quantile Regression](https://bambinos.github.io/bambi/notebooks/quantile_regression.html)
+    * 分位点回帰(誤差を含めた予測値を計算する)
+
 
 
 # 実験
