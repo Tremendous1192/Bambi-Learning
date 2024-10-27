@@ -28,6 +28,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 階層ベイズを用いた二項分布の回帰分析
 1. [Regression for Binary responses: Alternative link functions]()
     * 様々なfamilyのロジスティック回帰の予測精度を比較している
+1. [Wald and Gamma Regression (Australian insurance claims 2004-2005)](https://bambinos.github.io/bambi/notebooks/wald_gamma_glm.html)
+    * 別のfamilyの回帰
 
 # 実験
 1. 20240908 3次関数の回帰分析
