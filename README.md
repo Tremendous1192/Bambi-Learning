@@ -26,10 +26,18 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * model 3 はとても時間がかかる **316分**
 1. [Hierarchical Logistic regression with Binomial family](https://bambinos.github.io/bambi/notebooks/hierarchical_binomial_bambi.html)
     * 階層ベイズを用いた二項分布の回帰分析
-1. [Regression for Binary responses: Alternative link functions]()
-    * 様々なfamilyのロジスティック回帰の予測精度を比較している
+1. [Regression for Binary responses: Alternative link functions](https://bambinos.github.io/bambi/notebooks/alternative_links_binary.html)
+    * 様々なfamilyの**ロジスティック回帰の予測精度**を比較している
 1. [Wald and Gamma Regression (Australian insurance claims 2004-2005)](https://bambinos.github.io/bambi/notebooks/wald_gamma_glm.html)
     * 別のfamilyの回帰
+1. [Negative Binomial Regression (Students absence example)](https://bambinos.github.io/bambi/notebooks/negative_binomial.html)
+    * 省略
+1. [Count Regression with Variable Exposure](https://bambinos.github.io/bambi/notebooks/count_roaches.html)
+    * 計数データの予測
+1. [Beta Regression](https://bambinos.github.io/bambi/notebooks/beta_regression.html)
+    * 省略
+
+
 
 # 実験
 1. 20240908 3次関数の回帰分析
