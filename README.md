@@ -39,7 +39,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
 1. [Categorical Regression](https://bambinos.github.io/bambi/notebooks/categorical_regression.html)
     * **目的変数がカテゴリ変数の場合の回帰**を紹介している
     * 1対多の多重検定を使用している
-
+1. [Circular Regression](https://bambinos.github.io/bambi/notebooks/circular_regression.html)
+    * Circular Regression
+    * 周期性のあるデータの分析に使用できる
 
 
 # 実験
