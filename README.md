@@ -26,6 +26,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * model 3 はとても時間がかかる **316分**
 1. [Hierarchical Logistic regression with Binomial family](https://bambinos.github.io/bambi/notebooks/hierarchical_binomial_bambi.html)
     * 階層ベイズを用いた二項分布の回帰分析
+1. [Regression for Binary responses: Alternative link functions]()
+    * 様々なfamilyのロジスティック回帰の予測精度を比較している
 
 # 実験
 1. 20240908 3次関数の回帰分析
