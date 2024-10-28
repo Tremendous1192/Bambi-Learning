@@ -48,6 +48,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * マルチレベルモデル
     * ```base_model``` の計算には**43分**かかった
     * ```model_hierarchical``` の計算には**164分**かかった
+1. [Zero inflated models](https://bambinos.github.io/bambi/notebooks/zero_inflated_regression.html)
+    * 階層ベイズ?
 
 
 # 実験
