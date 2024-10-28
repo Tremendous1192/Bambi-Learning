@@ -50,6 +50,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * ```model_hierarchical``` の計算には**164分**かかった
 1. [Zero inflated models](https://bambinos.github.io/bambi/notebooks/zero_inflated_regression.html)
     * 階層ベイズ?
+1. [Ordinal Regression](https://bambinos.github.io/bambi/notebooks/ordinal_regression.html)
+    * 順序型変数を予測する
+    * **元のコードでエラーになる**
 
 
 # 実験
