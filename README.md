@@ -18,6 +18,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 階層ベイズのフォーミュラの参考になる
 1. [Hierarchical Linear Regression (Radon Contamination dataset)](https://bambinos.github.io/bambi/notebooks/radon_example.html)
     * 実用的な階層ベイズ回帰の例
+1. [Bayesian Workflow (Strack RRR Analysis Replication)](https://bambinos.github.io/bambi/notebooks/Strack_RRR_re_analysis.html)
+    * 回帰分析の例
+
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
