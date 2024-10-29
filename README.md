@@ -20,6 +20,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 実用的な階層ベイズ回帰の例
 1. [Bayesian Workflow (Strack RRR Analysis Replication)](https://bambinos.github.io/bambi/notebooks/Strack_RRR_re_analysis.html)
     * 回帰分析の例
+1. [Bayesian Workflow (Police Officer’s Dilemma)](https://bambinos.github.io/bambi/notebooks/shooter_crossed_random_ANOVA.html)
+    * 多重階層ベイズ
 
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
