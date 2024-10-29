@@ -22,6 +22,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 回帰分析の例
 1. [Bayesian Workflow (Police Officer’s Dilemma)](https://bambinos.github.io/bambi/notebooks/shooter_crossed_random_ANOVA.html)
     * 多重階層ベイズ
+1. [Robust Linear Regression](https://bambinos.github.io/bambi/notebooks/t_regression.html)
+    * 頑健回帰分析
 
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
