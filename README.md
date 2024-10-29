@@ -24,6 +24,8 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 多重階層ベイズ
 1. [Robust Linear Regression](https://bambinos.github.io/bambi/notebooks/t_regression.html)
     * 頑健回帰分析
+1. [Predict New Groups](https://bambinos.github.io/bambi/notebooks/predict_new_groups.html)
+    * 学習用データに含まれていないグループのデータを予測できるとのこと(!?)
 
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
