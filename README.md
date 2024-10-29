@@ -26,6 +26,10 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 頑健回帰分析
 1. [Predict New Groups](https://bambinos.github.io/bambi/notebooks/predict_new_groups.html)
     * 学習用データに含まれていないグループのデータを予測できるとのこと(!?)
+1. [Polynomial Regression](https://bambinos.github.io/bambi/notebooks/polynomial_regression.html)
+    * 多項式回帰
+    * 自由落下の式$x = \frac{1}{2}gt^2+x_0$に対応するformulaは```"x ~ I(t**2) + 1"```である
+
 
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
