@@ -71,7 +71,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
 ## More advanced models
 1. [Distributional models](https://bambinos.github.io/bambi/notebooks/distributional_models.html)
     * 分散が大きくなっていくデータの予測
-
+1. [Gaussian Processes](https://bambinos.github.io/bambi/notebooks/hsgp_1d.html)
+    * ガウス過程回帰
+    * データ数があればかなり滑らかな予測曲線を描くことができる
 
 
 # formula
@@ -80,6 +82,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
 * ```:```: 交互作用。例```y ~ x0:x1```
 * ```(|)```: 階層ベイズ。例```y ~ (x0|x1)```
 * ```bs()```: B-スプライン
+* ```hsgp()```: ガウス過程回帰
 
 # 実験
 1. 20240908 3次関数の回帰分析
