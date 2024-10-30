@@ -74,6 +74,9 @@ URL: https://bambinos.github.io/bambi/notebooks/
 1. [Gaussian Processes](https://bambinos.github.io/bambi/notebooks/hsgp_1d.html)
     * ガウス過程回帰
     * データ数があればかなり滑らかな予測曲線を描くことができる
+1. [Gaussian Processes in 2D](https://bambinos.github.io/bambi/notebooks/hsgp_2d.html)
+    * 2次元ガウス過程回帰
+    * ```NotImplementedError: 'numpyro_nuts' method has not been implemented```
 
 
 # formula
