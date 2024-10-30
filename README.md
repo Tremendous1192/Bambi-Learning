@@ -57,6 +57,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 周期性のあるデータの分析に使用できる
 1. [Quantile Regression](https://bambinos.github.io/bambi/notebooks/quantile_regression.html)
     * 分位点回帰(誤差を含めた予測値を計算する)
+    * B-スプライン回帰のformulaは```"bmi ~ bs(age, knots=knots)"```で書く
 1. [Multilevel Regression and Post-stratification](https://bambinos.github.io/bambi/notebooks/mister_p.html)
     * マルチレベルモデル
     * ```base_model``` の計算には**43分**かかった
@@ -67,6 +68,18 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 順序型変数を予測する
     * **元のコードでエラーになる**
 
+## More advanced models
+1. [Distributional models](https://bambinos.github.io/bambi/notebooks/distributional_models.html)
+    * 分散が大きくなっていくデータの予測
+
+
+
+# formula
+* ```I()```: 恒等関数。例``` y ~ I(x)```
+* ```C()```: カテゴリ変数。例``` y ~ C(x)```
+* ```:```: 交互作用。例```y ~ x0:x1```
+* ```(|)```: 階層ベイズ。例```y ~ (x0|x1)```
+* ```bs()```: B-スプライン
 
 # 実験
 1. 20240908 3次関数の回帰分析
