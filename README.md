@@ -34,6 +34,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
 ## Generalized Linear Models
 1. [Logistic Regression (Vote intention with ANES data)](https://bambinos.github.io/bambi/notebooks/logistic_regression.html)
     * 2016年の米国大統領選挙を題材にしたロジスティック回帰
+    * ```az.loo(clinton_fitted, pointwise=True)``` を使いたい場合 ```nutpie``` サンプラーは使えない
 1. [Logistic Regression and Model Comparison with Bambi and ArviZ](https://bambinos.github.io/bambi/notebooks/model_comparison.html)
     * リンク関数の多項式の次数と予測精度を比較した。
     * ```model 3``` の計算には**316分**かかった
@@ -43,6 +44,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
     * 様々なfamilyの**ロジスティック回帰の予測精度**を比較している
 1. [Wald and Gamma Regression (Australian insurance claims 2004-2005)](https://bambinos.github.io/bambi/notebooks/wald_gamma_glm.html)
     * 別のfamilyの回帰
+    * ```az.compare()``` を使いたい場合 ```nutpie``` サンプラーは使えない
 1. [Negative Binomial Regression (Students absence example)](https://bambinos.github.io/bambi/notebooks/negative_binomial.html)
     * 省略
 1. [Count Regression with Variable Exposure](https://bambinos.github.io/bambi/notebooks/count_roaches.html)
@@ -61,6 +63,7 @@ URL: https://bambinos.github.io/bambi/notebooks/
 1. [Multilevel Regression and Post-stratification](https://bambinos.github.io/bambi/notebooks/mister_p.html)
     * マルチレベルモデル
     * ```base_model``` の計算には**43分**かかった
+        * ```nuts_sampler = "nutpie"```の場合 **43分**かかった。
     * ```model_hierarchical``` の計算には**164分**かかった
 1. [Zero inflated models](https://bambinos.github.io/bambi/notebooks/zero_inflated_regression.html)
     * 階層ベイズ?
@@ -71,12 +74,15 @@ URL: https://bambinos.github.io/bambi/notebooks/
 ## More advanced models
 1. [Distributional models](https://bambinos.github.io/bambi/notebooks/distributional_models.html)
     * 分散が大きくなっていくデータの予測
+    * ```nutpie```サンプラーは```az.compare()```メソッドに対応していない(2024-11-01)
 1. [Gaussian Processes](https://bambinos.github.io/bambi/notebooks/hsgp_1d.html)
     * ガウス過程回帰
     * データ数があればかなり滑らかな予測曲線を描くことができる
 1. [Gaussian Processes in 2D](https://bambinos.github.io/bambi/notebooks/hsgp_2d.html)
     * 2次元ガウス過程回帰
-    * ```NotImplementedError: 'numpyro_nuts' method has not been implemented```
+    * 元のコードでエラーが発生したので修正した。
+        * ```NotImplementedError: 'numpyro_nuts' method has not been implemented```
+        * ```num_chain```引数は廃止されたようだ
 
 
 # formula
